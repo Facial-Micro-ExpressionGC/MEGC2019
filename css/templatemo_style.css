@@ -146,7 +146,7 @@ a:hover { color: white; }
 	width: 100%;
   overflow-x: hidden;
 	overflow-y: auto;
-  color: white;
+  color: black;
 }
 .page-container {
   width: 100%;
@@ -185,12 +185,12 @@ a:hover { color: white; }
   color: gray;
 }
 #page1 { z-index: 5; }
-#page2 { z-index: 4; background: #3E88A3; }
-#page3 { z-index: 3; background: #B23573; }
-#page4 { z-index: 2; background: #818089; }
-#page5 { z-index: 1; background: #50AF98; }
-#page6 { z-index: 6; background: #50AF98; }
-#page7 { z-index: 7; background: #50AF98; }
+#page2 { z-index: 4; background: #FFFFFF; }
+#page3 { z-index: 3; background: #FFFFFF; }
+#page4 { z-index: 2; background: #FFFFFF; }
+#page5 { z-index: 1; background: #FFFFFF; }
+#page6 { z-index: 6; background: #FFFFFF; }
+#page7 { z-index: 7; background: #FFFFFF; }
 
 /* 5. Image styles
 --------------------------------------------------- */
