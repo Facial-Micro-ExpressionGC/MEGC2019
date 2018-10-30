@@ -185,7 +185,7 @@ a:hover { color: white; }
 #page1 { z-index: 5; }
 #page2 { z-index: 4; background: #3E88A3; }
 #page3 { z-index: 3; background: #B23573;	}
-#page4 { z-index: 2; background: #818089; }
+#page4 { z-index: 2; background: #FFFFFF; }
 #page5 { z-index: 1; background: #50AF98; }
 
 /* 5. Image styles
