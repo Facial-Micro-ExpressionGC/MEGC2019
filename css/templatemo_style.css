@@ -55,6 +55,8 @@ nav li#page2_link.active, nav li#page2_link:hover { border-top-color: #3E88A3; }
 nav li#page3_link.active, nav li#page3_link:hover { border-top-color: #B23573; }
 nav li#page4_link.active, nav li#page4_link:hover { border-top-color: #818089; }
 nav li#page5_link.active, nav li#page5_link:hover { border-top-color: #50AF98; }
+nav li#page6_link.active, nav li#page6_link:hover { border-top-color: #50AF98; }
+nav li#page7_link.active, nav li#page7_link:hover { border-top-color: #50AF98; }
 .nav>li>a, nav li a {
   padding: 0;
   color: black;
@@ -187,18 +189,20 @@ a:hover { color: white; }
 #page3 { z-index: 3; background: #B23573; }
 #page4 { z-index: 2; background: #818089; }
 #page5 { z-index: 1; background: #50AF98; }
+#page6 { z-index: 6; background: #50AF98; }
+#page7 { z-index: 7; background: #50AF98; }
 
 /* 5. Image styles
 --------------------------------------------------- */
 img { 
-  width:100%;
+  width:auto;
   height: auto;
 }
 img.bordered {
   border: 2px solid rgba(255,255,255,0.5);
   border-radius: 2px;
 }
-img.ie { height: 100%; } /* IE fix */
+img.ie { height: auto; } /* IE fix */
 
 /* 6. Social icon styles
 --------------------------------------------------- */
