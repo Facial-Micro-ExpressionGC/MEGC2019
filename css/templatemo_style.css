@@ -356,3 +356,11 @@ input#subject {	width: 100%; }
   .col-xxs-12 { width: 100%; }
   #footer p, #footer .social { text-align: center; }
 }
+nav li {
+	display: inline;
+	list-style: none;
+	textalign: right;
+}
+nav li: last-child {
+	text-align: left;
+}
