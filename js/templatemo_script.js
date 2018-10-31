@@ -78,7 +78,7 @@ function setFooter(){
 var currentPageNo = 2;
 
 function changePage(event) {
-	var nextPageNo = event.target.id.substr(4, 2);
+	var nextPageNo = event.target.id.substr(4, 1);
 	if( nextPageNo == currentPageNo ) {
 	 	return;
 	}
