@@ -357,7 +357,7 @@ input#subject {	width: 100%; }
   #footer p, #footer .social { text-align: center; }
 }
 nav li {
-	display: none;
+	display: inline;
 	list-style: none;
 	textalign: right;
 }
