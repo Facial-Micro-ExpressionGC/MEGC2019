@@ -30,8 +30,8 @@ function initialize() {
 ---------------------------- */
 var footerChangeBreakpoint = 768;
 var footerHTML = '<div id="footer" class="row"><p class="col-md-6 col-sm-6 col-xs-8 col-xxs-12">' +
-				'Copyright © 2018 MEGC2019' + 
-				'</p><div class="social col-md-6 col-sm-6 col-xs-4 col-xxs-12"><a href=""><i class="fa fa-facebook no-bg"></i></a><a href=""><i class="fa fa-twitter no-bg"></i></a><a href=""><i class="fa fa-youtube no-bg"></i></a><a href=""><i class="fa fa-linkedin no-bg"></i></a><a href=""><i class="fa fa-rss no-bg"></i></a></div></div>';
+				'Copyright © 2018 MEGC2019'; // + 
+				//'</p><div class="social col-md-6 col-sm-6 col-xs-4 col-xxs-12"><a href=""><i class="fa fa-facebook no-bg"></i></a><a href=""><i class="fa fa-twitter no-bg"></i></a><a href=""><i class="fa fa-youtube no-bg"></i></a><a href=""><i class="fa fa-linkedin no-bg"></i></a><a href=""><i class="fa fa-rss no-bg"></i></a></div></div>';
 
 function setPageHeight(){
 
