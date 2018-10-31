@@ -135,8 +135,8 @@ p {
   text-align: justify;
   margin-bottom: 10px;
 }
-a { color: black; }
-a:hover { color: black; }
+a { color: blue; }
+a:hover { color: blue; }
 .main-container { 
   overflow: hidden; 
   height: 100%; 
