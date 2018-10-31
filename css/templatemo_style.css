@@ -135,8 +135,8 @@ p {
   text-align: justify;
   margin-bottom: 10px;
 }
-a { color: white; }
-a:hover { color: white; }
+a { color: black; }
+a:hover { color: black; }
 .main-container { 
   overflow: hidden; 
   height: 100%; 
@@ -182,7 +182,7 @@ a:hover { color: white; }
 }
 #logo {
   font-size: 2em;
-  color: gray;
+  color: black;
 }
 #page1 { z-index: 5; }
 #page2 { z-index: 4; background: #FFFFFF; }
@@ -239,7 +239,7 @@ img.ie { height: auto; } /* IE fix */
 #footer {
   width: 100%;
   min-height: 50px;
-  color: gray;
+  color: black;
   background-color: white;
 }
 #footer.absolute-pos {
@@ -255,7 +255,7 @@ img.ie { height: auto; } /* IE fix */
   margin: 0;
 }
 #footer a {
-  color: gray;
+  color: black;
   text-decoration: none;
 }
 #footer .social {  text-align: right; }
