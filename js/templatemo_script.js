@@ -75,7 +75,7 @@ function setFooter(){
 
 /* Change page
 ---------------------------- */
-var currentPageNo = 2;
+var currentPageNo = 1;
 
 function changePage(event) {
 	var nextPageNo = event.target.id.substr(4, 1);
@@ -91,12 +91,12 @@ function changePage(event) {
 	$currentPage = $('#page' + currentPageNo);
 	$nextPage = $('#page' + nextPageNo);
 
-	if(nextPageNo != 2) {
+	if(nextPageNo != 1) {
 		if( !(api.supersized.vars.is_paused) ){
 		  api.playToggle();
 		}
 		
-		if(nextPageNo == 5) {
+		if(nextPageNo == 6) {
 			if(!mapLoaded) {
 				// load google map
 				var script = document.createElement('script');
