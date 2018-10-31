@@ -50,7 +50,7 @@ nav li {
   border-top: 2px solid rgb(233,233,233);
 }
 nav li.active { font-weight: 700; }
-nav li#page1_link.active, nav li#page1_link:hover { border-top-color: #B29E66; }
+/*nav li#page1_link.active, nav li#page1_link:hover { border-top-color: #B29E66; }*/
 nav li#page2_link.active, nav li#page2_link:hover { border-top-color: #3E88A3; }
 nav li#page3_link.active, nav li#page3_link:hover { border-top-color: #B23573; }
 nav li#page4_link.active, nav li#page4_link:hover { border-top-color: #818089; }
@@ -188,7 +188,7 @@ a:hover { color: blue; }
 #page2 { z-index: 4; background: #FFFFFF; }
 #page3 { z-index: 3; background: #FFFFFF; }
 #page4 { z-index: 2; background: #FFFFFF; }
-#page5 { z-index: 1; background: #FFFFFF; }
+/*#page5 { z-index: 1; background: #FFFFFF; }*/
 #page6 { z-index: 6; background: #FFFFFF; }
 #page7 { z-index: 7; background: #FFFFFF; }
 
