@@ -14,7 +14,7 @@
 
 	/* Place Supersized Elements
 	----------------------------*/
-	$(document).ready(function() {
+/*	$(document).ready(function() {
 		$('section#page1').append('<div id="supersized-loader"></div><ul id="supersized"></ul>');
 	});
     
@@ -23,7 +23,7 @@
     	
     	/* Variables
 		----------------------------*/
-    	var el = '#supersized',
+  /*  	var el = '#supersized',
         	base = this;
         // Access to jQuery and DOM versions of element
         base.$el = $(el);
@@ -39,7 +39,7 @@
         	$.supersized.vars.options = $.extend({},$.supersized.defaultOptions, $.supersized.themeOptions, options);
             base.options = $.supersized.vars.options;
             
-       //     base._build();
+            base._build();*/
         };
         
         
