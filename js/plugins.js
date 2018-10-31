@@ -39,7 +39,7 @@
         	$.supersized.vars.options = $.extend({},$.supersized.defaultOptions, $.supersized.themeOptions, options);
             base.options = $.supersized.vars.options;
             
-            base._build();
+       //     base._build();
         };
         
         
