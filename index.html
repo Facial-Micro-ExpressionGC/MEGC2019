@@ -336,7 +336,33 @@ This is the second edition of this workshop, which aims to promote interactions 
 	<script type="text/javascript">
     	/* www.buildinternet.com/project/supersized 
     	------------------------------------------- */
+    	jQuery(function ($) {	
+		// load gallery
+		$.supersized({
+		        // Functionality
+		        slide_interval: 5000, // Length between transitions
+		        transition: 1, // 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+		        transition_speed: 700, // Speed of transition
 
+		        // Components                           
+		        slide_links: 'blank', // Individual links for each slide (Options: false, 'num', 'name', 'blank')
+		        slides: [ // Slideshow Images
+		        {
+		        	image: 'images/slider/slider-1.jpg', title: 'Image 1', thumb : 'images/slider/thumb-1.jpg'
+		        }, {
+		        	image: 'images/slider/slider-2.jpg', title: 'Image 2', thumb : 'images/slider/thumb-2.jpg'
+		        }, {
+		        	image: 'images/slider/slider-3.jpg', title: 'Image 3', thumb : 'images/slider/thumb-3.jpg'
+		        }, {
+		        	image: 'images/slider/slider-4.jpg', title: 'Image 4', thumb : 'images/slider/thumb-4.jpg'
+		        }, {
+		        	image: 'images/slider/slider-5.jpg', title: 'Image 5', thumb : 'images/slider/thumb-5.jpg'
+		        }
+		        ]
+
+		    });
+});
+</script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/templatemo_script.js"></script>
 </body>
