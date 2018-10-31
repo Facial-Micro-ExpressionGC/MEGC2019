@@ -75,10 +75,10 @@ function setFooter(){
 
 /* Change page
 ---------------------------- */
-var currentPageNo = 1;
+var currentPageNo = 2;
 
 function changePage(event) {
-	var nextPageNo = event.target.id.substr(4, 1);
+	var nextPageNo = event.target.id.substr(4, 2);
 	if( nextPageNo == currentPageNo ) {
 	 	return;
 	}
@@ -91,7 +91,7 @@ function changePage(event) {
 	$currentPage = $('#page' + currentPageNo);
 	$nextPage = $('#page' + nextPageNo);
 
-	if(nextPageNo != 1) {
+	if(nextPageNo != 2) {
 		if( !(api.supersized.vars.is_paused) ){
 		  api.playToggle();
 		}
