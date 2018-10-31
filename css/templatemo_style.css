@@ -184,11 +184,11 @@ a:hover { color: blue; }
   font-size: 2em;
   color: black;
 }
-#page1 { z-index: 5; }
+/*#page1 { z-index: 5; }*/
 #page2 { z-index: 4; background: #FFFFFF; }
 #page3 { z-index: 3; background: #FFFFFF; }
 #page4 { z-index: 2; background: #FFFFFF; }
-/*#page5 { z-index: 1; background: #FFFFFF; }*/
+#page5 { z-index: 1; background: #FFFFFF; }
 #page6 { z-index: 6; background: #FFFFFF; }
 #page7 { z-index: 7; background: #FFFFFF; }
 
