@@ -170,6 +170,9 @@ a:hover { color: blue; }
   padding: 5px;
   text-align: center;
 }
+.text {
+text-align: left;
+}
 .hide { 
   position: absolute !important; 
   top: -9999px !important; 
