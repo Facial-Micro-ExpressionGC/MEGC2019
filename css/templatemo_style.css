@@ -164,12 +164,10 @@ a:hover { color: blue; }
   vertical-align: top;
   max-width: 250px;
   margin: 10px 20px 20px 20px;
+  float: left;
+  width: 24.9%;
+  padding: 5px;
   text-align: center;
-}
-.column {
-    float: left;
-    width: 24.9%;
-    padding: 5px;
 }
 .hide { 
   position: absolute !important; 
