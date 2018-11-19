@@ -162,7 +162,7 @@ a:hover { color: blue; }
 .templatemo-item {
   display: inline-block;
   vertical-align: top;
-  max-width: 250px;
+  max-width: 200px;
   margin: 10px 20px 20px 20px;
   float: left;
   width: 24.9%;
