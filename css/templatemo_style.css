@@ -340,6 +340,10 @@ input#subject {	width: 100%; }
 @media screen and (max-width: 520px) {
     .column {
         width: 100%;
+	border-collapse: collapse; 
+	      padding: 6px; 
+  border: 1px solid #ccc; 
+  text-align: left; 
     }
 @media screen and (max-width: 1040px) {
   nav li {
