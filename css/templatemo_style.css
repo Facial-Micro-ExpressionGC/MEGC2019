@@ -81,7 +81,7 @@ nav li a:hover {
 }
 #templatemo_mobile_menu_wap p#mobile_menu_btn {
     padding-top: 5px;
-    font-size: 20px;
+    font-size: 19px;
     text-align: right;
     width: 100%;
 }
@@ -117,7 +117,7 @@ html, body {
   overflow: hidden; 
 }
 h1 { 
-  font-size: 24px; 
+  font-size: 22px; 
   margin-top: 20px; 
   margin-bottom: 20px; 
   text-align: center; 
@@ -187,7 +187,7 @@ a:hover { color: blue; }
   padding: 15px;
 }
 #logo {
-  font-size: 2em;
+  font-size: 1em;
   color: black;
 }
 #page1 { z-index: 5; }
