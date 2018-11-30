@@ -331,6 +331,10 @@ input#subject {	width: 100%; }
 
 /* 9. Media queries
 ----------------------------------------------- */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
 @media screen and (max-width: 1040px) {
   nav li {
     padding: 10px;
