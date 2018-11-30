@@ -192,6 +192,20 @@ a:hover { color: blue; }
 #page6 { z-index: 6; background: #FFFFFF; }
 #page7 { z-index: 7; background: #FFFFFF; }
 
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 400px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /* 5. Image styles
 --------------------------------------------------- */
 img { 
