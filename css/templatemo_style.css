@@ -138,6 +138,9 @@ p {
   text-align: justify;
   margin-bottom: 10px;
 }
+li{
+	text-align: left;
+}
 a { color: blue; }
 a:hover { color: blue; }
 .main-container { 
