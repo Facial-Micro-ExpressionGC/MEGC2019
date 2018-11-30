@@ -41,7 +41,7 @@ html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h
 -------------------------------------------------- */
 nav li {
   list-style: none;
-  display: inline-block;
+  display: inline;
   cursor: pointer;
   text-align: center;
   width: 120px;
