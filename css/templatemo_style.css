@@ -188,7 +188,7 @@ a:hover { color: blue; }
 }
 #logo {
   font-size: 2em;
-  color: black;
+  color: gray;
 }
 #page1 { z-index: 5; }
 #page2 { z-index: 4; background: #FFFFFF; }
